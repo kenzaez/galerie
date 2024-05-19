@@ -1,6 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Imbue:opsz,wght@10..100,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@400..700&family=Imbue:opsz,wght@10..100,100..900&family=Indie+Flower&family=Jacquard+24+Charted&family=Jacquarda+Bastarda+9+Charted&family=MedievalSharp&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@400..700&family=Imbue:opsz,wght@10..100,100..900&family=Indie+Flower&family=Jacquarda+Bastarda+9+Charted&family=MedievalSharp&display=swap');
+@media (max-width: 767px) {
+  // Style for devices have width <= 767px; 
+}
+@media (max-width: 1023px) and (min-width: 768px) {
+  // Style for devices have width >= 768px and <= 1023px;
+}
+@media (min-width: 1024px) {
+  // Style for devices have width >= 1024px;
+}
 html {
     scroll-behavior: smooth;
   }
